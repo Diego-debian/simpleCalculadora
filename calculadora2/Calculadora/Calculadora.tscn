@@ -1,0 +1,43 @@
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://Calculadora/Boton.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Assets/Background/background.png" type="Texture" id=2]
+[ext_resource path="res://Calculadora/Calculadora.gd" type="Script" id=3]
+[ext_resource path="res://Assets/Fonts/EmilysCandy-Regular.ttf" type="DynamicFontData" id=4]
+
+[sub_resource type="StyleBoxTexture" id=1]
+texture = ExtResource( 2 )
+region_rect = Rect2( 0, 0, 2480, 3508 )
+
+[sub_resource type="DynamicFont" id=2]
+size = 140
+font_data = ExtResource( 4 )
+
+[node name="Calculadora" type="Node"]
+script = ExtResource( 3 )
+
+[node name="Pantalla" type="Panel" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_styles/panel = SubResource( 1 )
+
+[node name="Respuesta" type="Label" parent="Pantalla"]
+margin_left = 164.0
+margin_top = 162.0
+margin_right = 1011.0
+margin_bottom = 570.0
+rect_scale = Vector2( 0.999457, 0.820626 )
+custom_fonts/font = SubResource( 2 )
+text = "0"
+align = 2
+valign = 1
+
+[node name="btn1" parent="Pantalla" instance=ExtResource( 1 )]
+__meta__ = {
+"_editor_description_": ""
+}
+
+[connection signal="emitir_btn_clear" from="Pantalla/btn1" to="." method="_on_btn1_emitir_btn_clear"]
+[connection signal="emitir_btn_number" from="Pantalla/btn1" to="." method="_on_btn1_emitir_btn_number"]
+[connection signal="emitir_btn_operaciones" from="Pantalla/btn1" to="." method="_on_btn1_emitir_btn_operaciones"]
+[connection signal="script_changed" from="Pantalla/btn1" to="." method="_on_btn1_script_changed"]

@@ -1,0 +1,351 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Assets/Buttons/btn_idle.png" type="Texture" id=1]
+[ext_resource path="res://Calculadora/Botones.gd" type="Script" id=2]
+
+[node name="Boton" type="Node"]
+script = ExtResource( 2 )
+
+[node name="BtnClear" type="Button" parent="."]
+margin_left = 149.0
+margin_top = 646.0
+margin_right = 1665.0
+margin_bottom = 2114.0
+rect_scale = Vector2( 0.180629, 0.114112 )
+
+[node name="lbl_clear" type="Label" parent="BtnClear"]
+margin_left = 280.49
+margin_top = 520.452
+margin_right = 320.49
+margin_bottom = 534.452
+rect_scale = Vector2( 24.079, 42.1273 )
+custom_colors/font_color = Color( 0.976471, 0.937255, 0.937255, 1 )
+text = "Clear"
+align = 1
+
+[node name="BtnLast" type="Button" parent="."]
+margin_left = 482.0
+margin_top = 642.0
+margin_right = 1998.0
+margin_bottom = 2110.0
+rect_scale = Vector2( 0.1672, 0.117685 )
+
+[node name="lbl_clear_last" type="Label" parent="BtnLast"]
+margin_left = 271.586
+margin_top = 520.452
+margin_right = 311.586
+margin_bottom = 534.452
+rect_scale = Vector2( 24.079, 42.1273 )
+custom_colors/font_color = Color( 0.976471, 0.937255, 0.937255, 1 )
+text = "Last"
+align = 1
+
+[node name="BtnAddMenus" type="Button" parent="."]
+margin_left = 789.0
+margin_top = 641.0
+margin_right = 2305.0
+margin_bottom = 2109.0
+rect_scale = Vector2( 0.152027, 0.118035 )
+
+[node name="lbl_add_menus" type="Label" parent="BtnAddMenus"]
+margin_left = 258.229
+margin_top = 443.086
+margin_right = 298.229
+margin_bottom = 457.086
+rect_scale = Vector2( 24.079, 42.1273 )
+custom_colors/font_color = Color( 0.976471, 0.937255, 0.937255, 1 )
+text = "+/-"
+align = 1
+
+[node name="Btn9" type="Button" parent="."]
+margin_left = 626.0
+margin_top = 970.0
+margin_right = 2142.0
+margin_bottom = 2438.0
+rect_scale = Vector2( 0.132995, 0.0867159 )
+
+[node name="lbl_9" type="Label" parent="Btn9"]
+margin_left = 280.49
+margin_top = 520.452
+margin_right = 320.49
+margin_bottom = 534.452
+rect_scale = Vector2( 24.079, 42.1273 )
+custom_colors/font_color = Color( 0.976471, 0.937255, 0.937255, 1 )
+text = "9"
+align = 1
+
+[node name="Btn8" type="Button" parent="."]
+margin_left = 386.0
+margin_top = 970.0
+margin_right = 1902.0
+margin_bottom = 2438.0
+rect_scale = Vector2( 0.132995, 0.0867159 )
+
+[node name="lbl_8" type="Label" parent="Btn8"]
+margin_left = 280.49
+margin_top = 520.452
+margin_right = 320.49
+margin_bottom = 534.452
+rect_scale = Vector2( 24.079, 42.1273 )
+custom_colors/font_color = Color( 0.976471, 0.937255, 0.937255, 1 )
+text = "8"
+align = 1
+
+[node name="Btn7" type="Button" parent="."]
+margin_left = 154.0
+margin_top = 970.0
+margin_right = 1670.0
+margin_bottom = 2438.0
+rect_scale = Vector2( 0.132995, 0.0867159 )
+
+[node name="lbl_7" type="Label" parent="Btn7"]
+margin_left = 280.49
+margin_top = 520.452
+margin_right = 320.49
+margin_bottom = 534.452
+rect_scale = Vector2( 24.079, 42.1273 )
+custom_colors/font_color = Color( 0.976471, 0.937255, 0.937255, 1 )
+text = "7"
+align = 1
+
+[node name="Btn6" type="Button" parent="."]
+margin_left = 626.0
+margin_top = 1130.0
+margin_right = 2142.0
+margin_bottom = 2598.0
+rect_scale = Vector2( 0.132995, 0.0867159 )
+
+[node name="lbl_6" type="Label" parent="Btn6"]
+margin_left = 280.49
+margin_top = 520.452
+margin_right = 320.49
+margin_bottom = 534.452
+rect_scale = Vector2( 24.079, 42.1273 )
+custom_colors/font_color = Color( 0.976471, 0.937255, 0.937255, 1 )
+text = "6"
+align = 1
+
+[node name="Btn5" type="Button" parent="."]
+margin_left = 386.0
+margin_top = 1130.0
+margin_right = 1902.0
+margin_bottom = 2598.0
+rect_scale = Vector2( 0.132995, 0.0867159 )
+
+[node name="lbl_5" type="Label" parent="Btn5"]
+margin_left = 280.49
+margin_top = 520.452
+margin_right = 320.49
+margin_bottom = 534.452
+rect_scale = Vector2( 24.079, 42.1273 )
+custom_colors/font_color = Color( 0.976471, 0.937255, 0.937255, 1 )
+text = "5"
+align = 1
+
+[node name="Btn4" type="Button" parent="."]
+margin_left = 154.0
+margin_top = 1130.0
+margin_right = 1670.0
+margin_bottom = 2598.0
+rect_scale = Vector2( 0.132995, 0.0867159 )
+
+[node name="lbl_4" type="Label" parent="Btn4"]
+margin_left = 280.49
+margin_top = 520.452
+margin_right = 320.49
+margin_bottom = 534.452
+rect_scale = Vector2( 24.079, 42.1273 )
+custom_colors/font_color = Color( 0.976471, 0.937255, 0.937255, 1 )
+text = "4"
+align = 1
+
+[node name="Btn3" type="Button" parent="."]
+margin_left = 626.0
+margin_top = 1290.0
+margin_right = 2142.0
+margin_bottom = 2758.0
+rect_scale = Vector2( 0.132995, 0.0867159 )
+
+[node name="lbl_3" type="Label" parent="Btn3"]
+margin_left = 280.49
+margin_top = 520.452
+margin_right = 320.49
+margin_bottom = 534.452
+rect_scale = Vector2( 24.079, 42.1273 )
+custom_colors/font_color = Color( 0.976471, 0.937255, 0.937255, 1 )
+text = "3"
+align = 1
+
+[node name="Btn2" type="Button" parent="."]
+margin_left = 386.0
+margin_top = 1290.0
+margin_right = 1902.0
+margin_bottom = 2758.0
+rect_scale = Vector2( 0.132995, 0.0867159 )
+
+[node name="lbl_2" type="Label" parent="Btn2"]
+margin_left = 280.49
+margin_top = 520.452
+margin_right = 320.49
+margin_bottom = 534.452
+rect_scale = Vector2( 24.079, 42.1273 )
+custom_colors/font_color = Color( 0.976471, 0.937255, 0.937255, 1 )
+text = "2"
+align = 1
+
+[node name="Btn1" type="Button" parent="."]
+margin_left = 154.0
+margin_top = 1290.0
+margin_right = 1670.0
+margin_bottom = 2758.0
+rect_scale = Vector2( 0.132995, 0.0867159 )
+
+[node name="lbl_1" type="Label" parent="Btn1"]
+margin_left = 280.49
+margin_top = 520.452
+margin_right = 320.49
+margin_bottom = 534.452
+rect_scale = Vector2( 24.079, 42.1273 )
+custom_colors/font_color = Color( 0.976471, 0.937255, 0.937255, 1 )
+text = "1"
+align = 1
+
+[node name="Btn0" type="Button" parent="."]
+margin_left = 154.0
+margin_top = 1450.0
+margin_right = 1670.0
+margin_bottom = 2918.0
+rect_scale = Vector2( 0.132995, 0.0867159 )
+
+[node name="lbl_0" type="Label" parent="Btn0"]
+margin_left = 280.49
+margin_top = 520.452
+margin_right = 320.49
+margin_bottom = 534.452
+rect_scale = Vector2( 24.079, 42.1273 )
+custom_colors/font_color = Color( 0.976471, 0.937255, 0.937255, 1 )
+text = "0"
+align = 1
+
+[node name="BtnDot" type="Button" parent="."]
+margin_left = 386.0
+margin_top = 1450.0
+margin_right = 1902.0
+margin_bottom = 2918.0
+rect_scale = Vector2( 0.132995, 0.0867159 )
+icon = ExtResource( 1 )
+
+[node name="lbl_Dot" type="Label" parent="BtnDot"]
+margin_left = -300.763
+margin_top = -0.00195312
+margin_right = -260.763
+margin_bottom = 13.998
+rect_scale = Vector2( 51.4404, 87.755 )
+custom_colors/font_color = Color( 0.976471, 0.937255, 0.937255, 1 )
+text = ","
+align = 1
+
+[node name="BtnEquals" type="Button" parent="."]
+margin_left = 626.0
+margin_top = 1450.0
+margin_right = 2142.0
+margin_bottom = 2918.0
+rect_scale = Vector2( 0.132995, 0.0867159 )
+
+[node name="lbl_equals" type="Label" parent="BtnEquals"]
+margin_left = -353.397
+margin_top = 196.041
+margin_right = -313.397
+margin_bottom = 210.041
+rect_scale = Vector2( 55.0744, 90.9159 )
+custom_colors/font_color = Color( 0.976471, 0.937255, 0.937255, 1 )
+text = "="
+align = 1
+
+[node name="BtnAdd" type="Button" parent="."]
+margin_left = 906.0
+margin_top = 970.0
+margin_right = 2422.0
+margin_bottom = 2438.0
+rect_scale = Vector2( 0.0963173, 0.0867159 )
+
+[node name="lbl_add" type="Label" parent="BtnAdd"]
+margin_left = 138.377
+margin_top = 335.939
+margin_right = 178.377
+margin_bottom = 349.939
+rect_scale = Vector2( 29.9292, 67.118 )
+custom_colors/font_color = Color( 0.976471, 0.937255, 0.937255, 1 )
+text = "+"
+align = 1
+
+[node name="BtnMenus" type="Button" parent="."]
+margin_left = 906.0
+margin_top = 1130.0
+margin_right = 2422.0
+margin_bottom = 2598.0
+rect_scale = Vector2( 0.0970573, 0.0788638 )
+
+[node name="lbl_menus" type="Label" parent="BtnMenus"]
+margin_left = -501.128
+margin_top = 416.394
+margin_right = -461.128
+margin_bottom = 430.394
+rect_scale = Vector2( 63.8472, 62.9008 )
+custom_colors/font_color = Color( 0.976471, 0.937255, 0.937255, 1 )
+text = "-"
+align = 1
+
+[node name="BtnMultiply" type="Button" parent="."]
+margin_left = 906.0
+margin_top = 1290.0
+margin_right = 2422.0
+margin_bottom = 2758.0
+rect_scale = Vector2( 0.0984534, 0.0801975 )
+
+[node name="lbl_multiply" type="Label" parent="BtnMultiply"]
+margin_left = 280.49
+margin_top = 520.452
+margin_right = 320.49
+margin_bottom = 534.452
+rect_scale = Vector2( 24.079, 42.1273 )
+custom_colors/font_color = Color( 0.976471, 0.937255, 0.937255, 1 )
+text = "X"
+align = 1
+
+[node name="BtnDivide" type="Button" parent="."]
+margin_left = 906.0
+margin_top = 1450.0
+margin_right = 2422.0
+margin_bottom = 2918.0
+rect_scale = Vector2( 0.0964227, 0.080603 )
+
+[node name="lbl_divide" type="Label" parent="BtnDivide"]
+margin_left = 280.49
+margin_top = 520.452
+margin_right = 320.49
+margin_bottom = 534.452
+rect_scale = Vector2( 24.079, 42.1273 )
+custom_colors/font_color = Color( 0.976471, 0.937255, 0.937255, 1 )
+text = "/"
+align = 1
+
+[connection signal="pressed" from="BtnClear" to="." method="_on_BtnClear_pressed"]
+[connection signal="pressed" from="BtnLast" to="." method="_on_BtnLast_pressed"]
+[connection signal="pressed" from="BtnAddMenus" to="." method="_on_BtnAddMenus_pressed"]
+[connection signal="pressed" from="Btn9" to="." method="_on_Btn9_pressed"]
+[connection signal="pressed" from="Btn8" to="." method="_on_Btn8_pressed"]
+[connection signal="pressed" from="Btn7" to="." method="_on_Btn7_pressed"]
+[connection signal="pressed" from="Btn6" to="." method="_on_Btn6_pressed"]
+[connection signal="pressed" from="Btn5" to="." method="_on_Btn5_pressed"]
+[connection signal="pressed" from="Btn4" to="." method="_on_Btn4_pressed"]
+[connection signal="pressed" from="Btn3" to="." method="_on_Btn3_pressed"]
+[connection signal="pressed" from="Btn2" to="." method="_on_Btn2_pressed"]
+[connection signal="pressed" from="Btn1" to="." method="_on_Btn1_pressed"]
+[connection signal="pressed" from="Btn0" to="." method="_on_Btn0_pressed"]
+[connection signal="pressed" from="BtnDot" to="." method="_on_BtnDot_pressed"]
+[connection signal="pressed" from="BtnEquals" to="." method="_on_BtnEquals_pressed"]
+[connection signal="pressed" from="BtnAdd" to="." method="_on_BtnAdd_pressed"]
+[connection signal="pressed" from="BtnMenus" to="." method="_on_BtnMenus_pressed"]
+[connection signal="pressed" from="BtnMultiply" to="." method="_on_BtnMultiply_pressed"]
+[connection signal="pressed" from="BtnDivide" to="." method="_on_BtnDivide_pressed"]
